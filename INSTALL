@@ -1,0 +1,5 @@
+Copy patch.sh into your root Black Prophecy directory
+e.g.: ~/.wine/drive_c/Program\ Files/Black\ Prophecy
+
+command:
+	cp ./patch.sh ~/.wine/drive_c/Program\ Files/Black\ Prophecy/patch.sh
