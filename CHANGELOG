@@ -1,1 +1,3 @@
 adding mkdir if the Patches-Directory doesn't exist
+fixed: only one patch per execution was found, after it said: up2date (which was wrong)
+fixed the check for existing patches-directory (forgot a "not")

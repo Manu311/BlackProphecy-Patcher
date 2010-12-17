@@ -1,6 +1,6 @@
 patchinfo=/tmp/PatchInfos2.xml
 
-if [ -d Patches ]; then mkdir Patches; fi
+if [ ! -d Patches ]; then mkdir Patches; fi
 
 wget http://patcher.blackprophecy.com/PatchInfos2.xml -O $patchinfo
 version=`cat version`
