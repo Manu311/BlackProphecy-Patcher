@@ -19,9 +19,9 @@ do
 	wine ./BIN/WIN32/RTpatch.exe ./Patches/$filename
 	version=`cat version`
 	patchfile=`cat $patchinfo | grep "<$version File" | cut -d= -f2 | cut -d\\" -f2`
-	patchfile=" "
 done
 
+echo "Gameversion: $version"
 echo "Game is up2date, do you want to start it now?"
 read -r -p \(y\/n\) -s -n 1 startgame
 if [ $startgame = "y" ]
